@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dwaio71qs1l3j"]
+
+[ext_resource type="Script" uid="uid://88laspqwjff" path="res://src/Nivel/nivel.gd" id="1_p2vsw"]
+
+[sub_resource type="Environment" id="Environment_ha6vo"]
+background_mode = 1
+
+[node name="Nivel" type="Node2D" unique_id=1474968261]
+script = ExtResource("1_p2vsw")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1503471612]
+environment = SubResource("Environment_ha6vo")
+
+[node name="Estaticos" type="Node2D" parent="." unique_id=1766656270]
+
+[node name="Fim" type="Marker2D" parent="Estaticos" unique_id=1373268930]
+
+[node name="Inicio" type="Marker2D" parent="Estaticos" unique_id=1299389240]
+
+[node name="Dinamicos" type="Node2D" parent="." unique_id=621938843]
