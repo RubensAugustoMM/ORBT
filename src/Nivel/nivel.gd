@@ -24,7 +24,7 @@ func iniciar() -> void:
 		return # lançar excessão
 
 	fim.position = nivel_res.fim
-	inicio.position = nivel_res.inicios
+	inicio.position = nivel_res.inicio
 	
 	for corpo in nivel_res.corpos_estelares:
 		if not corpo:

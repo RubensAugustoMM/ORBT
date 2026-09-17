@@ -3,7 +3,8 @@
 [ext_resource type="Script" uid="uid://88laspqwjff" path="res://src/Nivel/nivel.gd" id="1_p2vsw"]
 
 [sub_resource type="Environment" id="Environment_ha6vo"]
-background_mode = 1
+background_mode = 3
+ambient_light_source = 2
 
 [node name="Nivel" type="Node2D" unique_id=1474968261]
 script = ExtResource("1_p2vsw")
