@@ -12,6 +12,14 @@ script = ExtResource("1_p2vsw")
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1503471612]
 environment = SubResource("Environment_ha6vo")
 
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=857296798]
+layer = -100
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=1677124368]
+offset_right = 180.0
+offset_bottom = 320.0
+color = Color(0, 0, 0, 1)
+
 [node name="Estaticos" type="Node2D" parent="." unique_id=1766656270]
 
 [node name="Fim" type="Marker2D" parent="Estaticos" unique_id=1373268930]
